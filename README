@@ -1,0 +1,13 @@
+README
+
+Following are the steps to execute the code
+
+1. First execute "Walmart_hacks.py". This file will generate dataset for SVM after performing k_Means clustering
+2. Then execute "Walmart_test.py". This file will generate the modified test data for SVM after k_means clustering
+3. Finally Execute "Walmart_hacks_SVM.py". This file will generate the predicted output in "shelves_predict.txt" and will list the accuracy, fscore, precision and recall.
+4. During the execution of the first program, the first plot that you will see is the "ELBOW plot" for k means for identifying suitable "k" for your data. The decreasing curve shows the elbow. The elbow is the suitable number of clusters for the data.
+5. The second plot that your will observe, is the area plot showing the distribution of samples under different clusters.
+NOTE : After execute the first program. The generated file is SVM_dataset.csv. open the file and remove the first column which is merely the items id. Similarl, after executing the second program , the generated file is SVM_testset.csv. Remove the first column in this also. 
+
+For any queries:
+manasgaur99@gmail.com
